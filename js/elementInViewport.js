@@ -1,3 +1,8 @@
+/**
+ * Originally posted here: 
+ * http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport/7557433#7557433
+ */
+
 function onVisibilityChange(el, callback) {
     var old_visible;
     return function () {
